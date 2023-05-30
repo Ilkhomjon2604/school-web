@@ -5,7 +5,11 @@
 
 }
 
+
+
 @media  (max-width: 992px ) {
+
+    /* navbar  */
     .nav-list, .btn-contact{
         display: none;
     }
@@ -24,9 +28,46 @@
         display: block;
         font-size: 18px;
     }
-}   
+    /* navabr end  */
+
+    /* hero */
+    .hero-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .hero-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-img img{
+        margin-left: -80px;
+    }
+    /* ABOUT  */
+    .about-wrapper {
+        display: flex;
+       flex-direction: column;
+      }
+      .school {
+       width: 100%;
+        
+      }
+
+    .about-info{
+        width: 100%;
+    }
+}  
+
+
 
 @media  (max-width: 776px ) {
+    .container{
+        padding: 0 20px ;
+    }
+    /* navbar start  */
     .navbar{
         padding: 5px 10px;
     }
@@ -39,4 +80,34 @@
    .dropdown-menu{
     top: 50px;
    }
+   /* navabr end  */
+   /* HERO  */
+   .hero-img img{
+    margin-left: -30px;
+}
+   .hero-title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    
+    margin-bottom: 20px ;
+    text-align: center;
+  }
+  .hero-text {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .btn-wrapper {
+ 
+    gap: 24px;
+  }
+
+  .btn {
+    padding: 7px 20px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+  }
 }
