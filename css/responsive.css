@@ -1,3 +1,42 @@
-@media  (max-widht : 992px ) {
-    
+@media  (max-width: 1206px ) {
+   .btn-contact{
+        display: none;
+    }
+
+}
+
+@media  (max-width: 992px ) {
+    .nav-list, .btn-contact{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+
+    .open{
+        display: flex;
+    }
+
+    .dropdown-menu a{
+        font-size: 18px;
+    }
+    .dropdown-menu .btn-contact{
+        display: block;
+        font-size: 18px;
+    }
+}   
+
+@media  (max-width: 776px ) {
+    .navbar{
+        padding: 5px 10px;
+    }
+   .logo{
+    width: 80px;
+   }
+   .toggle-btn img{
+    width: 30px;
+   }
+   .dropdown-menu{
+    top: 50px;
+   }
 }
