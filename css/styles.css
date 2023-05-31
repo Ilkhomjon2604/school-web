@@ -548,6 +548,23 @@ textarea{
 
 /* CONTACT FORM END  */
 
+/* FOOTER  */
+.footer-wrapper {
+  padding: 27px;
+  background-color: var(--color-success);
+  color: var(--text-light);
+}
+.logo {
+}
+.footer-contact {
+}
+.footer-media {
+}
+.media-title {
+}
+
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
