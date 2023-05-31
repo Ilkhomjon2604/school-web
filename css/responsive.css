@@ -147,4 +147,32 @@
     margin-top: 64px;
     margin-bottom: 70px;;
   }
+
+  /* footer  */
+    .footer-contact{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .footer-contact span{
+        font-size: 14px;
+    }
+
+    .footer-media img {
+        width: 18px;
+      }
+      .media-title {
+        font-size: 12px;
+        line-height: 15px;
+      }
+      
+}
+
+@media  (max-width: 776px ) {
+    .container{
+        padding: 0 10px;
+    }
+    .footer-wrapper{
+        padding: 0;
+    }
 }
